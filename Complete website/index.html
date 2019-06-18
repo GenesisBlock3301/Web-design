@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My first Website | Sifatbd.com </title>
+
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+
+    <link rel="icon" href="image/flower.jpg" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!---                     --->
+    <div class="main_wrap header_bg">
+        <div class="wrap">
+                <header id="header">
+                   <h2>Home Page</h2>
+                   <p>Subtitle goes here</p>
+               </header>
+        </div>
+    </div>
+
+    <!-- 2-->
+
+    <div class="main_wrap nav_bg">
+        <div class="wrap">
+            <nav>
+        <div id="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="Inside.html">Inside</a></li>
+                <li><a href="#">Menu item &#9660;</a>
+                    <ul>
+                        <li><a href="#">dropdown item</a></li>
+                       <li>
+                            <a href="#">dropdown item &raquo</a>
+                          <ul>
+                            <li><a href="#"> sub dropdown item</a></li>
+                             <li><a href="#">sub dropdown item</a></li>
+                             <li><a href="#">sub dropdown item</a></li>
+                             <li><a href="#"> sub dropdown item</a></li>
+                          </ul>
+                       </li>
+                        <li><a href="#">dropdown item</a></li>
+                        <li><a href="#">dropdown item</a></li>
+                    </ul>
+
+                </li>
+                <li><a href="#">Menu item</a></li>
+                <li><a href="#">Menu item</a></li>
+            </ul>
+        </div>
+    </nav>
+        </div>
+    </div>
+    <!-- 3-->
+    <div class="main_wrap slider_bg">
+        <div class="wrap">
+            <section>
+        <div id="slider1">
+
+            <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="images/toystory.jpg" />
+                <img src="images/walle.jpg"/>
+                <img src="images/nemo.jpg"/>
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+            </div>
+        </div>
+
+        </div>
+    </section>
+        </div>
+    </div>
+    <!-- 4-->
+    <div class="main_wrap content_bg">
+        <div class="wrap">
+       <div id="content_wrapper">
+        <div id="content">
+            <article id="main_article_single">
+                <h2>Say something about myself</h2>
+                <div id="img_wrap">
+                <img src="image/1.jpg" alt=""/>
+                <p>My name is Nur Amin Sifat . I'm from Jamalpur. Now
+                i studied at Daffodil international University in
+                department of CSE. Already i have been completed
+                7th semester and recently i wanna to start 8th semester
+                so everybody prayer for me  that's i could change
+                nyself [....]</p>
+                </div>
+            </article>
+            <article id="main_article_single">
+                <h2>Say something about myself</h2>
+                <div id="img_wrap">
+                <img src="image/1.jpg" alt=""/>
+                <p>My name is Nur Amin Sifat . I'm from Jamalpur. Now
+                i studied at Daffodil international University in
+                department of CSE. Already i have been completed
+                7th semester and recently i wanna to start 8th semester
+                so everybody prayer for me  that's i could change
+                nyself [....]</p>
+                </div>
+            </article>
+            <article id="main_article_single">
+                <h2>Say something about myself</h2>
+                <div id="img_wrap">
+                <img src="image/1.jpg" alt=""/>
+                <p>My name is Nur Amin Sifat . I'm from Jamalpur. Now
+                i studied at Daffodil international University in
+                department of CSE. Already i have been completed
+                7th semester and recently i wanna to start 8th semester
+                so everybody prayer for me  that's i could change
+                nyself [....]</p>
+                </div>
+            </article>
+        </div>
+        <div id="sidebar">
+            <aside id="main_side_bar">
+                <h2>Sidebar heading</h2>
+                <ul>
+                    <li><a href="#"></a>List item</li>
+                    <li><a href="#"></a>List item</li>
+                    <li><a href="#"></a>List item</li>
+                    <li><a href="#"></a>List item</li>
+                </ul>
+            </aside>
+            <aside id="main_side_bar">
+                <h2>Sidebar heading</h2>
+                <ul>
+                    <li><a href="#"></a>List item</li>
+                    <li><a href="#"></a>List item</li>
+                    <li><a href="#"></a>List item</li>
+                    <li><a href="#"></a>List item</li>
+                </ul>
+            </aside>
+            <aside id="main_side_bar">
+                <h2>Sidebar heading</h2>
+                <ul>
+                    <li><a href="#"></a>List item</li>
+                    <li><a href="#"></a>List item</li>
+                    <li><a href="#"></a>List item</li>
+                    <li><a href="#"></a>List item</li>
+                </ul>
+            </aside>
+        </div>
+        </div>
+    </div>
+<!-- 5-->
+    <div class="main_wrap footer_bg">
+        <div class="wrap">
+              <footer>
+    <div id="footer">
+        <p>&copy;Already Right Reserved by Sifat </p>
+    </div>
+</footer>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</body>
+</html>
